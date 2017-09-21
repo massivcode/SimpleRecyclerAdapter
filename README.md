@@ -35,7 +35,10 @@ Write once, use everywhere.
 한 번 작성하고, 모든 곳에서 사용하세요.
 
 ## 2. Preview
-![Screenshot](https://github.com/prChoe/SimpleRecyclerAdapter/blob/master/Screenshot-SimpleRecyclerAdapter.png) 
+![Screenshot](https://github.com/prChoe/SimpleRecyclerAdapter/blob/master/Screenshot-SimpleRecyclerAdapter.png)
+
+
+![Screenshot](https://github.com/prChoe/SimpleRecyclerAdapter/blob/master/Screenshot2.png)
 
 ## 3. Setup
 

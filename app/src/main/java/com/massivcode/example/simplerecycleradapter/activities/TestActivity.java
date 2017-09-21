@@ -62,7 +62,7 @@ public class TestActivity extends AppCompatActivity {
 
         TestAdapter testAdapter = new TestAdapter(items);
 
-        testAdapter.setOnItemClickListener(ViewTypes.CONTACT, new ItemClickListener() {
+        testAdapter.setOnItemClickListener(ViewTypes.CONTACT, new ItemClickListener<Item>() {
             @Override
             public void onItemClick(View view, int position, Item item) {
                 int viewId = view.getId();
@@ -77,14 +77,14 @@ public class TestActivity extends AppCompatActivity {
             }
         });
 
-        testAdapter.setOnItemClickListener(ViewTypes.ARTICLE, new ItemClickListener() {
+        testAdapter.setOnItemClickListener(ViewTypes.ARTICLE, new ItemClickListener<Item>() {
             @Override
             public void onItemClick(View view, int position, Item item) {
                 System.out.println("ClickedView : " + view + ", position: " + position + ", item: " + item);
             }
         });
 
-        testAdapter.setOnItemClickListener(ViewTypes.MEMO, new ItemClickListener() {
+        testAdapter.setOnItemClickListener(ViewTypes.MEMO, new ItemClickListener<Item>() {
             @Override
             public void onItemClick(View view, int position, Item item) {
                 System.out.println("ClickedView : " + view + ", position: " + position + ", item: " + item);

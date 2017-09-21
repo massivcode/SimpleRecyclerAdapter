@@ -30,8 +30,8 @@ public abstract class SimpleRecyclerAdapter<ITEM extends Item> extends RecyclerV
         }
     };
 
-    public SimpleRecyclerAdapter(List<ITEM> mItems) {
-        this.mItems = mItems;
+    public SimpleRecyclerAdapter(List<ITEM> items) {
+        this.mItems = items;
     }
 
     @Override
